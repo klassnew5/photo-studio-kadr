@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фотостудия «Кадр» — Портрет, семейная, бизнес-съёмка</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">Кадр</div>
+        <div class="menu">
+            <a href="#portfolio">Портфолио</a>
+            <a href="#services">Услуги</a>
+            <a href="#about">О фотографе</a>
+            <a href="#contact">Записаться</a>
+        </div>
+    </nav>
+
+    <section class="hero" style="padding: 0; max-width: 100%;">
+        <div class="hero-content">
+            <h1>Моменты, которые остаются</h1>
+            <p>Профессиональная фотосъёмка в светлой студии в центре города</p>
+            <a href="#contact" class="btn">Записаться на съёмку</a>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h2 class="section-title">Портфолио</h2>
+        <div class="portfolio-grid">
+            <img src="images/portfolio1.jpg" alt="Портретная съёмка">
+            <img src="images/portfolio2.jpg" alt="Семейная съёмка">
+            <img src="images/portfolio3.jpg" alt="Бизнес-портрет">
+        </div>
+    </section>
+
+    <section id="services">
+        <h2 class="section-title">Форматы съёмок</h2>
+        <div class="services">
+            <div class="service-card">
+                <h3>Портрет</h3>
+                <p>Индивидуальная съёмка для себя, соцсетей или портфолио. 1 час, 15 обработанных фото.</p>
+            </div>
+            <div class="service-card">
+                <h3>Семейная</h3>
+                <p>Тёплые кадры для семейного архива. 1.5 часа, 30 обработанных фото, смена образов.</p>
+            </div>
+            <div class="service-card">
+                <h3>Бизнес</h3>
+                <p>Строгие и уверенные портреты для сайта, LinkedIn и деловых соцсетей. 1 час, 10 фото.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-me">
+            <img src="images/photographer.jpg" alt="Фотограф">
+            <div class="about-text">
+                <h2>О фотографе</h2>
+                <p>Меня зовут Анна. Я фотограф с 8-летним опытом работы.</p>
+                <p>Помогу вам раскрыться перед камерой, даже если вы никогда не фотографировались. Создам комфортную атмосферу и подскажу удачные ракурсы.</p>
+                <p>Работаю в светлой студии в центре. Все фото проходят профессиональную ретушь.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 class="section-title">Записаться на съёмку</h2>
+        <p>Оставьте заявку, и я свяжусь с вами, чтобы обсудить детали</p>
+        <form id="contactForm">
+            <input type="text" placeholder="Ваше имя" required>
+            <input type="tel" placeholder="Телефон" required>
+            <input type="date" required>
+            <button type="submit">Отправить заявку</button>
+        </form>
+    </section>
+
+    <footer style="text-align: center; padding: 40px; background: #1a1a1a; color: #888; font-size: 14px;">
+        <p>© 2026 Фотостудия «Кадр»</p>
+        <div class="social-links">
+            <a href="https://vk.ru/klassik5_dev" target="_blank" class="social-icon vk" title="ВКонтакте">VK</a>
+            <a href="https://ok.ru/group/70000058787189" target="_blank" class="social-icon ok" title="Одноклассники">OK</a>
+            <a href="https://t.me/saitodel_spb" target="_blank" class="social-icon tg" title="Telegram">TG</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
